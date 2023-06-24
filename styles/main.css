@@ -904,6 +904,21 @@ footer {
   .footer-footer p {
     font-size: 0.9 rem;
   }
+  .subscription {
+    width: 60%;
+  }
+
+  .subscription .pay-as-you-go {
+    font-size: 1rem;
+  }
+
+  .subscription .sub-save {
+    font-size: 0.9rem;
+  }
+
+  .subscription .save-50 {
+    width: 120px;
+  }
 }
 
 /* @media screen and (min-width: 1023px) {
