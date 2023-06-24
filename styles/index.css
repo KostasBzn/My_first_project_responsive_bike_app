@@ -27,8 +27,9 @@ body {
 }
 
 header {
-  background: linear-gradient(var(--primary-color), #8df5ee);
+  background: linear-gradient(var(--primary-color), #c7f8f5);
   padding-bottom: 40px;
+  min-height: 100vh;
 }
 
 .logo img {
