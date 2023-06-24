@@ -109,28 +109,33 @@ nav .menus li a {
   color: var(--header-gradient-2);
   text-decoration: none;
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 4px;
+}
+
+nav .menus li {
+  margin-top: 10px;
 }
 
 .list-buttons {
   display: flex;
-  justify-content: left;
+  justify-content: start;
   align-items: center;
   gap: 10px;
+  margin-top: 30px;
 }
 
 .button1,
 .button2 {
-  height: 70px;
-  width: 170px;
+  height: 60px;
+  width: 140px;
   background: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 35px;
   gap: 10px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: white;
   transition: background 0.3s;
 }
@@ -156,7 +161,7 @@ nav .menus li a {
 
 .header-title h1 {
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 2.7rem;
   width: 70%;
   text-align: center;
   animation: anim-h1 0.3s ease-in-out;
@@ -174,7 +179,7 @@ nav .menus li a {
 
 .header-title h3 {
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 0 150px;
   text-align: center;
   margin: 20px 70px;
@@ -409,22 +414,24 @@ iframe {
 
 .app-buttons {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
-  padding-left: 20px;
+  margin: 0 20px;
+  margin-bottom: 20px;
 }
 
 .button11,
 .button22 {
-  height: 70px;
-  width: 170px;
+  height: 50px;
+  width: 130px;
   background: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 35px;
   gap: 10px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: white;
   transition: background 0.3s;
 }
@@ -494,7 +501,7 @@ iframe {
   align-items: center;
   flex-direction: column;
   flex-basis: 50%;
-  height: 66px;
+  height: 50px;
   font-size: 0.8rem;
   border-radius: 20px;
   background-color: #c5ffff;
@@ -530,7 +537,7 @@ iframe {
 
 .pricing-cards {
   margin: 0 20px;
-  margin-top: 200px;
+  margin-top: 145px;
 }
 
 .p-card-1 {
@@ -555,13 +562,13 @@ iframe {
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .price-card img {
-  width: 280px;
+  width: 235px;
   position: absolute;
-  top: -170px;
+  top: -100px;
 }
 
 .price-card h2 {
@@ -702,6 +709,10 @@ iframe {
   align-items: start;
 }
 
+.insta-button {
+  margin: 0;
+}
+
 .social h4 {
   color: var(--primary-color);
   font-size: 1.4rem;
@@ -717,6 +728,10 @@ iframe {
 .social div {
   padding-left: 0;
   margin-bottom: 10px;
+}
+
+.social {
+  padding-bottom: 0;
 }
 
 .social img {
@@ -746,7 +761,7 @@ footer {
   color: var(--header-gradient-2);
   text-decoration: none;
   font-weight: bolder;
-  font-size: 3.7rem;
+  font-size: 2.3rem;
   letter-spacing: 4px;
 }
 
@@ -781,3 +796,115 @@ footer {
 .footer-footer .insta-ico i {
   font-size: 3rem;
 }
+
+@media screen and (min-width: 767px) {
+  .header-title h1 {
+    font-size: 3.7rem;
+    margin-top: 20px;
+  }
+
+  .header-title h3 {
+    font-size: 2rem;
+  }
+
+  .title-buttons {
+    gap: 50px;
+  }
+
+  .card h2 {
+    font-size: 2.5rem;
+  }
+  .card h3 {
+    font-size: 1.9rem;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    position: relative;
+    padding-left: 50px;
+  }
+
+  .button11,
+  .button22 {
+    height: 60px;
+    width: 160px;
+    font-size: 1rem;
+  }
+
+  .app-buttons {
+    gap: 60px;
+  }
+
+  .price-card img {
+    width: 320px;
+    top: -140px;
+  }
+
+  .pricing-cards {
+    margin-top: 180px;
+  }
+
+  .p-card-2 {
+    margin-top: 230px;
+  }
+
+  .price-card h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .price-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .price-card h5 {
+    font-size: 1.2rem;
+  }
+
+  .price-card h6 {
+    font-size: 1.2rem;
+  }
+
+  .relax h3 {
+    font-size: 1.6rem;
+  }
+
+  .relax h4 {
+    font-size: 1.3rem;
+  }
+
+  .social h4 {
+    font-size: 1.6rem;
+  }
+
+  .social h5 {
+    font-size: 1.3rem;
+  }
+
+  .social div {
+    margin-bottom: 15px;
+  }
+
+  .insta-button {
+    height: 60px;
+    width: 160px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .menus-footer li a {
+    font-size: 3.8rem;
+  }
+
+  .footer-footer .terms {
+    font-size: 0.9rem;
+  }
+
+  .footer-footer p {
+    font-size: 0.9 rem;
+  }
+}
+
+/* @media screen and (min-width: 1023px) {
+} */
